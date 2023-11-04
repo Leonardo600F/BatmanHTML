@@ -1,0 +1,88 @@
+.Comments-Session{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Comments1{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.comment {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0, 0, 20px, 10px;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-style: ridge;
+}
+.comment:hover{
+    transform: scale(1.02);
+    border-color: #D21617;
+    color: #D21617;
+}
+
+.banner-1:before{
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    content: "O melhor filme de super herói de 2022! Nota: 8,5/10.";
+}
+
+.banner-2:before{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    content: "Ótimo filme! Gotham parece ter vida! Nota: 9/10."
+
+}
+
+.banner-3:before{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    content: "Críticos gostaram, o público amou! Nota: 8/10.";
+}
+
+.banner-4:before{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    content: "Arkham é sombria, muito suspense e ação. Nota: 8,5/10.";
+}
+
+footer{
+ height: 300px;
+ margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+}
+
+span{
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+<div class="Comments-Session">
+<div class="Comments1">
+    <div class="comment banner-1">IGN</div>
+    <div class="comment banner-2">Omelete</div>
+    <div class="comment banner-3">IMDB</div>
+    <div class="comment banner-4">Rotten Tomatoes</div>
+</div>
+</div>

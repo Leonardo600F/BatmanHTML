@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    color: aliceblue;
+    transition: .5s;
+    font-size: 1.0rem;
+}
+
+i:hover {
+    color:#D21617;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 19px;
+}
+
+
+li:hover {
+    color: #D21617;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 600px;
+    padding-top: 30px;
+    align-items: center;
+    
+}
+
+.formas-contato {
+    display: flex;
+    padding-left: 5%;
+    margin-top: 150px;
+}
+
+.rede-social {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 23px;
+    padding: 0 0 30px 0
+}
+
+.rede-social:hover {
+    color: #D21617;
+}
+
+footer {
+    height: 210px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+}
+
+@media(max-width: 912px ) {
+    h2 {
+        font-size: 20px;
+        padding: 0 300px;
+    }
+
+    .logo-img {
+        width: 135px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    i {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 853px ) {
+    h2 {
+        font-size: 17px;
+        padding: 0 300px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    i {
+        font-size: 0.7rem;
+    }
+
+    .logo-img {
+        width: 125px;
+    }
+}
+
+@media(max-width: 823px ) {
+    h2 {
+        font-size: 14px;
+        padding: 0 300px;
+    }
+}
+
+@media(max-width: 786px ) {
+    h2 {
+        padding: 0 300px;
+    }
+
+    i {
+        font-size: 0.6rem;
+    }
+
+    .logo-img {
+        width: 115px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    .social-media {
+        width: 100px;
+    }
+}
+
+@media(max-width: 764px ) {
+    h2 {
+        padding: 0 300px;
+    }
+
+    span {
+        font-size: 13px;
+    }
+
+    .rede-social {
+        font-size: 20px;
+    }
+
+    .social-media {
+        width: 100px;
+    }
+}
+
+@media(max-width: 738px ) {
+    h2 {
+        padding: 0 300px;
+    }
+
+    .social-media {
+        width: 100px;
+    }
+}
+
+@media(max-width: 714px ) {
+    i {
+        font-size: 0.5rem;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    .logo-img {
+        width: 90px;
+    }
+
+    .social-media {
+        width: 100px;
+    }
+
+}
+
+
+@media(max-width: 636px ) {
+    li {
+        font-size: 10px;
+    }
+
+    .rede-social {
+        font-size: 18px;
+    }
+
+    .social-media {
+        width: 100px;
+    }
+}
+
+@media(max-width: 595px ) {
+    i {
+        font-size: 0.4rem;
+    }
+
+    .social-media {
+        width: 70px;
+    }
+}
+
+@media(max-width: 450px ) {
+    li {
+        font-size: 8px;
+    }
+
+    .social-media {
+        width: 40px;
+    }
+}
+
+@media(max-width: 374px) {
+    h2 {
+        font-size: 10px;
+    }
+
+    .rede-social {
+        font-size: 13px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    .social-media {
+        width: 30px;
+    }
+}
+

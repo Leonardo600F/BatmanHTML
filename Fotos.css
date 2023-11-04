@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    color: aliceblue;
+    transition: .5s;
+    font-size: 1.0rem;
+}
+
+i:hover {
+    color:#D21617;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: .5s;
+    list-style: none;
+}
+
+li:hover{
+    color: #D21617;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:aliceblue;
+    font-size: 25px;
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.fotos-filme{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-filme-conteudo{
+    width: 95%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.foto {
+    width: 250px;
+    height: 500px;
+    background-size: cover;
+    cursor: pointer;
+    transition: .5s;
+    background-position: 50% 55%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto:hover{
+    transform: scale(1.02);
+    color: #D21617;
+}
+
+.banner1{
+    background-image: url('https://static1.pocketlintimages.com/wordpress/wp-content/uploads/160293-homepage-news-feature-how-to-watch-the-batman-2022-is-the-new-batman-available-to-stream-yet-image1-sa1kvohrpw.jpg');
+}
+
+.banner2{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg');
+}
+
+.banner3{
+    background-image: url('https://variety.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-01-at-9.11.46-AM.png?w=681&h=383&crop=1');
+}
+
+.banner4{
+background-image: url('https://universoheroico.com.br/wp-content/uploads/2022/03/Pinguim-ganhara-serie-apos-Batman.jpg');
+}
+
+.banner5{
+    background-image: url('https://static.tvtropes.org/pmwiki/pub/images/riddler_1.png');
+}
+
+footer{
+    height: 210px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@media(max-width: 1210px) {
+    .foto {
+        width: 200px;
+    }
+}
+
+@media(max-width: 1093px) {
+    .foto {
+        width: 180px;
+    }
+
+    h2 {
+        font-size: 17px;
+        align-items: center;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .logo-img {
+        width: 130px;
+    }
+
+    .social-media {
+        width: 112px;
+    }
+
+    i {
+        font-size: 0.8rem;
+    }
+
+    span {
+        font-size: 13px;
+    }
+
+    .banner1 {
+        background-position: 45% 45%;
+    }
+}
+
+@media(max-width: 998px) {
+    .foto {
+        width: 160px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    i {
+        font-size: 0.7rem;
+    }
+
+    .logo-img {
+        width: 115px;
+    }
+
+    h2 {
+        font-size: 16px;
+        padding-left: 400px;
+    }
+
+    .fotos-filme-conteudo{
+        width: 90%;
+    }
+
+    .banner1 {
+        background-position: 45% 45%;
+    }
+}
+
+@media(max-width: 910px) {
+    .foto {
+        width: 140px;
+    }
+
+    .banner1 {
+        background-position: 45% 45%;
+    }
+}
+
+@media(max-width: 807px) {
+    .foto {
+        width: 120px;
+    }
+
+    .banner1 {
+        background-position: 43%;
+    }
+
+    .banner2 {
+        background-position: 46%;
+    }
+
+    h2 {
+        font-size: 10px;
+        padding: 0 0 0 300px
+    }
+}
+
+@media(max-width: 699px) {
+    .foto {
+        width: 105px;
+        font-size: 13px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    i {
+        font-size: 0.5rem;
+    }
+
+    .social-media {
+        width: 60px;
+    }
+
+    .logo-img {
+        width: 100px;
+    }
+}
+
+@media(max-width: 623px) {
+    .foto {
+        width: 85px;
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 519px) {
+    .foto {
+        width: 73px;
+        font-size: 12px;
+    }
+
+    h2 {
+        padding-left: 300px;
+    }
+
+    i {
+        font-size: 0.5rem;
+    }
+
+    .social-media {
+        width: 50px;
+    }
+
+    li {
+        font-size: 8px;
+    }
+
+    .banner5 {
+        background-position: 40% 60%;
+    }
+}
+
+@media(max-width: 453px) {
+    .logo-img {
+        width: 84px;
+    }
+
+    h2 {
+        padding-left: 180px;
+    }
+
+    .foto {
+        width: 63px;
+        font-size: 12px;
+    }
+
+    i {
+        font-size: 0.4rem;
+    }
+}
+
+@media(max-width: 399px) {
+    li {
+        font-size: 7px;
+    }
+
+    .logo-img {
+        width: 75px;
+    }
+
+    .foto {
+        width: 56px;
+        font-size: 10px;
+    }
+
+    h2 {
+        padding-left: 125px;
+    }
+
+    .social-media {
+        width: 40px;
+    }
+
+    i {
+        font-size: 0.3rem;
+    }
+}

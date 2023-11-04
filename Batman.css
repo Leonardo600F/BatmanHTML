@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+
+}
+
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    color: aliceblue;
+    transition: .5s;
+    font-size: 1.0rem;
+}
+
+i:hover {
+    color:#D21617;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+ color: #D21617;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+}
+
+#banner{
+    background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 50%;
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description{
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    color: aliceblue;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+
+}
+
+.button:hover{
+
+    background-color: aliceblue;
+    color: #000;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+.banner-1 {
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121730/batman-2022-tudo-o-que-precisa-saber-antes-de-ver-o-filme.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://i.pinimg.com/1200x/c9/02/3f/c9023f1ff8597220babf6b06dc76888c.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://i.redd.it/r96po045tlu81.png');
+}
+
+footer {
+    height: 210px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+@media(max-width: 1160px) {
+    #banner {
+        width: 100%;
+        background-position: 55% 55%;
+    }
+    .description{
+        font-size: 17px;
+        width: 70%;
+    }
+
+    .button{
+        width: 170px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 17px;
+    }
+
+    i {
+        font-size: 1.0rem;
+    }
+
+    .logo-img {
+        width: 135px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .description{
+        font-size: 15px;
+        width: 70%;
+    }
+
+    li{
+        font-size: 15px;
+    }
+
+    i {
+        font-size: 1.0rem;
+    }
+
+    .button{
+        width: 160px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .logo-img {
+        width: 130px;
+    }
+}
+
+@media(max-width: 900px) {
+    i {
+        width: 7px;
+        height: 4px;
+    }
+
+    .logo-img {
+        width: 125px;
+    }
+
+    .description{
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .trailer {
+        width: 60%;
+    }
+
+    #banner {
+        background-position: 65% 65%;
+    }
+
+    i {
+        font-size: 1.0rem;
+    }
+}
+
+@media(max-width: 750px) {
+    li{
+        font-size: 13px;
+    }
+
+    .logo-img {
+        width: 120px;
+    }
+
+    .trailer {
+        width: 60%;
+    }
+
+    .description{
+        font-size: 12px;
+        width: 70%;
+    }
+
+    #banner {
+        background-position: 65% 65%;
+    }
+
+    i {
+        font-size: 1.0rem;
+    }
+
+    .social-media {
+        width: 90px;
+    }
+
+}
+
+@media(max-width: 688px) {
+    .trailer {
+        width: 65%;
+    }
+
+    .li {
+        font-size: 11px;
+    }
+
+    .logo-img {
+        width: 114px;
+    }
+
+    #banner {
+        background-position: 65% 65%;
+    }
+
+    i {
+        font-size: 0.9rem;
+    }
+
+    .social-media {
+        width: 55px;
+    }
+}
+
+@media(max-width: 636px) {
+    .trailer {
+        width: 72%;
+    }
+
+    .button {
+        font-size: 11px;
+        width: 150px;
+        height: 35px;
+    }
+
+    .li {
+        font-size: 9px;
+    }
+
+    #logo {
+        width: 103px;
+    }
+
+    span {
+        font-size: 13px
+    }
+
+    i {
+        font-size: 0.8rem;
+    }
+
+    #banner {
+        background-position: 70% 70%;
+    }
+
+    .social-media {
+        width: 55px;
+    }
+}
+
+@media(max-width: 576px) {
+    .button {
+        font-size: 10px;
+        width: 120px;
+        height: 35px;
+    }
+
+    .trailer {
+        width: 78%;
+    }
+
+    .description{
+        font-size: 10px;
+        width: 70%;
+    }
+
+    i {
+        font-size: 0.8rem;
+    }
+
+    #banner {
+        background-position: 70% 70%;
+    }
+
+    .social-media {
+        width: 55px;
+    }
+}
+
+@media(max-width: 530px) {
+    .li {
+        font-size: 6px;
+    }
+
+    .logo-img {
+        width: 90px;
+    }
+
+    .button {
+        font-size: 6px;
+        width: 75px;
+        height: 16px;
+    }
+
+    .description{
+        font-size: 8px;
+        width: 60%;
+    }
+
+    i {
+        font-size: 0.7rem;
+    }
+
+    .cards-content {
+        width: 90%;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    #banner {
+        background-position: 70% 70%;
+    }
+
+    .social-media {
+        width: 55px;
+    }
+}
+
+@media(max-width: 500px) {
+    .trailer {
+        width: 85%;
+    }
+
+    .li {
+        font-size: 3px;
+    }
+
+    i {
+        font-size: 0.6rem;
+    }
+
+    .cards-content {
+        width: 90%;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    #banner {
+        background-position: 70% 70%;
+    }
+
+    .social-media {
+        width: 60px;
+    }
+}
+
+@media(max-width: 463px) {
+    .logo-img {
+        width: 70px;
+    }
+
+    .li {
+        font-size: 2px;
+    }
+
+    .description {
+        font-size: 7px;
+    }
+
+    .button {
+        font-size: 4px;
+        width: 59px;
+        height: 18px;
+    }
+
+    .cards-content {
+        width: 90%;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    #banner {
+        background-position: 70% 70%;
+    }
+    
+    .social-media {
+        width: 60px;
+    }
+    
+}
+
+@media(max-width: 422px) {
+    .logo-img {
+        width: 60px;
+    }
+
+    .li {
+        font-size: 2px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .cards-content {
+        width: 90%;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    #banner {
+        background-position: 70% 70%;
+    }
+    
+    .social-media {
+        width: 45px;
+    }
+}
